@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: food-inventory-service-service-service
+    name: food-inventory-service
   datasource:
     url: jdbc:mysql://localhost:3308/foodinventorydb
     password: root
@@ -19,3 +19,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8717/eureka/
+
+services:
+  restaurant-onboarding:
+    url: "http://RESTAURANT-ONBOARDING-SERVICE"

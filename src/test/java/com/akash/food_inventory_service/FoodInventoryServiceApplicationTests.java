@@ -1,4 +1,4 @@
-package com.akash.food_inventory;
+package com.akash.food_inventory_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
