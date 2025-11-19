@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class FoodInventoryDTO {
 
-    private int id;
+    private Long id;
     private String itemName;
     private String itemDescription;
     private Boolean isVeg;
